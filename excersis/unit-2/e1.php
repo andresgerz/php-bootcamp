@@ -8,8 +8,9 @@
   $total=12; */
 
 $nro1 = 10;
-$nro2 = 11;
+$nro2 = 10;
 
-$result = $nro1 === $nro2 ? $nro1 * 3 : $nro1 + $nro2;
+$suma = $nro1 + $nro2;
+$result = $nro1 === $nro2 ? $suma * 3 : $suma;
 
 echo "Result: " . $result;
